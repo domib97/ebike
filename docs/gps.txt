@@ -1,0 +1,5 @@
+GPS (https://maker.pro/raspberry-pi/tutorial/how-to-use-a-gps-receiver-with-raspberry-pi-4) : 
+
+1. sudo gpsd /dev/serial0 -F /var/run/gpsd.sock
+2. sudo gpsmon
+oder sudo cgps -s
